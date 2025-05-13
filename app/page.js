@@ -6,6 +6,7 @@ export default function Home() {
     <div>
       <h1 className="text-greeny mb-3">Hello, Tailwind!</h1>
       <h1 className="">Hello, Khaffy</h1>
+      <p className="mb-4 bg-purple-500">lorem ipsum</p>
       {/* <h1 className="text-greeny mb-3 text-xs lg:text-3xl">Hello, Tailwind!</h1>
       <h1 className="bg-[#bada55]">Hello, Tailwind!</h1>
 
