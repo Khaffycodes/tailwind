@@ -7,10 +7,7 @@ export default function Home() {
       <h1 className="text-greeny mb-3">Hello, Tailwind!</h1>
       <h1 className="">Hello, Khaffy</h1>
       <p className="mb-4 bg-purple-500">lorem ipsum</p>
-      <p className="mb-3">
-        he nature of something's ingredients or constituents; the way in which a
-        whole or mixture is made up. "the social composition of villages"
-      </p>
+
       {/* <h1 className="text-greeny mb-3 text-xs lg:text-3xl">Hello, Tailwind!</h1>
       <h1 className="bg-[#bada55]">Hello, Tailwind!</h1>
 
