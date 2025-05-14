@@ -4,9 +4,9 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <div>
-      <div className="flex">
-        <div className="h-6 w-6 bg-purple-800 "></div>
-        <div className=" h-6 w-6 bg-pink-800 "></div>
+      <div className="flex min-h-screen space-y-4">
+        <div className="w-1/4   bg-purple-800 ">Sidebar</div>
+        <div className=" w-4/5  bg-pink-800 ">Main-content</div>
       </div>
 
       <div className="h-6 w-36 bg-blue-800 opacity-40 mt-4"></div>
