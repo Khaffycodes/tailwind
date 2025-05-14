@@ -5,6 +5,6 @@
 @layer base {
   html {
     /* background-color: lime; */
-    @apply bg-slate-600  text-white text-lg font-bold;
+    /* @apply bg-slate-600  text-white text-lg font-bold; */
   }
 }
