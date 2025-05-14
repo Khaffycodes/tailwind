@@ -4,9 +4,12 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <div>
-      <div className="h-6 w-6 bg-purple-800 "></div>
-      <div className=" h-6 w-6 bg-pink-800 "></div>
-      <div className="h-6 w-36 bg-blue-800 opacity-40 "></div>
+      <div className="flex">
+        <div className="h-6 w-6 bg-purple-800 "></div>
+        <div className=" h-6 w-6 bg-pink-800 "></div>
+      </div>
+
+      <div className="h-6 w-36 bg-blue-800 opacity-40 mt-4"></div>
       <div className=" bg-red-300 -mt-4 ">-mt-8</div>
       <h1 className="text-3xl font-bold mb-2">This is a title</h1>
       <p className="capitalize text-xl">Welcome to your class</p>
