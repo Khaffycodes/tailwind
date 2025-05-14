@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,5 +8,7 @@
   html {
     /* background-color: lime; */
     /* @apply bg-slate-600  text-white text-lg font-bold; */
+
+    font-family: 'Oswald', sans-serif;
   }
 }
