@@ -4,16 +4,66 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <div>
+      <div className="h-screen text-white parent bg-white">
+        <div className="container mx-auto">
+          <div className="grid grid-flow-col gap-2 lg:grid-rows-4 ">
+            <div className="row-span-3  p-3 rounded-lg bg-sky-400">
+              First column
+            </div>
+            <div className=" p-3 rounded-lg bg-sky-400">Second column</div>
+            <div className=" p-3 rounded-lg bg-sky-400">Third column</div>
+            <div className="  p-3 rounded-lg bg-yellow-400 ">Fourth column</div>
+            <div className=" row-span-2p-3 rounded-lg bg-sky-400">
+              Fifth column
+            </div>
+            <div className="p-3 rounded-lg bg-sky-400">Sixth column</div>
+          </div>
+        </div>
+      </div>
+      <div className="h-screen text-white parent bg-white">
+        <div className="container mx-auto">
+          <div className="grid grid-flow-col gap-2 lg:grid-cols-4 ">
+            <div className=" col-span-4 col-start-2 p-3 rounded-lg bg-sky-400">
+              First column
+            </div>
+            <div className=" col-start-1  col-end-3 p-3 rounded-lg bg-sky-400">
+              Second column
+            </div>
+            <div className=" col-span-2  col-end-7 p-3 rounded-lg bg-sky-400">
+              Third column
+            </div>
+            <div className=" col-start-1  col-end-7 p-3 rounded-lg bg-yellow-400 col-span-2">
+              Fourth column
+            </div>
+            <div className="p-3 rounded-lg bg-sky-400">Fifth column</div>
+            <div className="p-3 rounded-lg bg-sky-400">Sixth column</div>
+          </div>
+        </div>
+      </div>
+      <div className="h-screen text-white parent bg-slate-600">
+        <div className="container mx-auto">
+          <div className="grid gap-2 md:grid-cols-2 lg:grid-cols-3 ">
+            <div className="p-3 rounded-lg bg-sky-400">First column</div>
+            <div className="p-3 rounded-lg bg-sky-400">Second column</div>
+            <div className="p-3 rounded-lg bg-sky-400">Third column</div>
+            <div className="p-3 rounded-lg bg-yellow-400 col-span-2">
+              Fourth column
+            </div>
+            <div className="p-3 rounded-lg bg-sky-400">Fifth column</div>
+            <div className="p-3 rounded-lg bg-sky-400">Sixth column</div>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-baseline">
+        <div className="bg-slate-500 pt-2 pb-6">01</div>
+        <div className="bg-orange-400 pt-8 pb-12">02</div>
+        <div className="bg-blue-300 pt-12 pb-4">03</div>
+      </div>
+      <div className="bg-red-500 ">Header</div>
       <div className="parent">
-        <div className="bg-red-500 ">Header</div>
-        <div className="flex justify-center">
+        <div className="flex items-center justify-evenly">
           <div className=" bg-green-500 ">
             <h1>Sidebar</h1>
-            <p>
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate velit esse cillum dolore eu fugiat
-            </p>
           </div>
           <div className=" bg-blue-500 ">
             <h1>Main Content</h1>
@@ -25,14 +75,8 @@ export default function Home() {
               anim id est laborum."
             </p>
           </div>
-          <div className=" bg-blue-500 ">
+          <div className=" bg-yellow-500 ">
             <h1>Another Sidebar</h1>
-            <p>
-              {' '}
-              enim ad minim veniam, nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum."
-            </p>
           </div>
           {/* <div className="w-1/4 bg-green-500 ">Sidebar</div>
           <div className="w-full bg-blue-500 ">Main Content</div>*/}
