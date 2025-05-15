@@ -4,19 +4,72 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <div>
+      <div className="h-screen text-white parent bg-slate-900 ">
+        <div className="container bg-red-500">Hello</div>
+      </div>
+      <div className="h-screen text-white parent bg-white">
+        <div className="container mx-auto">
+          <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-2">
+            <div className="col-span-2 p-3 rounded-lg bg-sky-400">
+              First row
+            </div>
+            <div className="col-span-2 p-3 rounded-lg bg-sky-400">
+              Second row
+            </div>
+            <div className="p-3 rounded-lg bg-sky-400">Third row</div>
+            <div className="p-3 rounded-lg bg-yellow-400 ">Fourth row</div>
+            <div className="p-3 rounded-lg bg-sky-400">Fifth row</div>
+            <div className="col-span-2 p-3 rounded-lg bg-sky-400">
+              Sixth row
+            </div>
+            <div className="p-3 rounded-lg bg-sky-400">7th row</div>
+            <div className="p-3 rounded-lg bg-yellow-400 ">8th row</div>
+            <div className="p-3 rounded-lg bg-sky-400">9th row</div>
+            <div className="col-span-2 p-3 rounded-lg bg-sky-400">10th row</div>
+            <div className=" p-3 rounded-lg bg-sky-400">11th row</div>
+            <div className="p-3 rounded-lg bg-sky-400">12th row</div>
+          </div>
+        </div>
+      </div>
+      <div className="h-screen text-white parent bg-white">
+        <div className="container mx-auto">
+          <div className="grid grid-flow-col gap-2 lg:grid-cols-4 ">
+            <div className=" col-span-4 col-start-2 p-3 rounded-lg bg-sky-400">
+              First column
+            </div>
+            <div className=" col-start-1  col-end-3 p-3 rounded-lg bg-sky-400">
+              Second column
+            </div>
+            <div className=" col-span-2  col-end-7 p-3 rounded-lg bg-sky-400">
+              Third column
+            </div>
+            <div className=" col-start-1  col-end-7 p-3 rounded-lg bg-yellow-400 col-span-2">
+              Fourth column
+            </div>
+            <div className="p-3 rounded-lg bg-sky-400">Fifth column</div>
+            <div className="p-3 rounded-lg bg-sky-400">Sixth column</div>
+          </div>
+        </div>
+      </div>
       <div className="h-screen text-white parent bg-white">
         <div className="container mx-auto">
           <div className="grid grid-flow-col gap-2 lg:grid-rows-4 ">
             <div className="row-span-3  p-3 rounded-lg bg-sky-400">
-              First column
+              First row
             </div>
-            <div className=" p-3 rounded-lg bg-sky-400">Second column</div>
-            <div className=" p-3 rounded-lg bg-sky-400">Third column</div>
-            <div className="  p-3 rounded-lg bg-yellow-400 ">Fourth column</div>
-            <div className=" row-span-2p-3 rounded-lg bg-sky-400">
-              Fifth column
+            <div className=" p-3 rounded-lg bg-sky-400">Second row</div>
+            <div className=" p-3 rounded-lg bg-sky-400">Third row</div>
+            <div className="  p-3 rounded-lg bg-yellow-400 ">Fourth row</div>
+            <div className=" row-span-2 p-3 rounded-lg bg-sky-400">
+              Fifth row
             </div>
-            <div className="p-3 rounded-lg bg-sky-400">Sixth column</div>
+            <div className="p-3 rounded-lg bg-sky-400">Sixth row</div>
+            <div className=" p-3 rounded-lg bg-sky-400">7th row</div>
+            <div className=" row-span-2 p-3 rounded-lg bg-yellow-400 ">
+              8th row
+            </div>
+            <div className="  p-3 rounded-lg bg-sky-400">9th row</div>
+            <div className="p-3 rounded-lg bg-sky-400">10th row</div>
           </div>
         </div>
       </div>
