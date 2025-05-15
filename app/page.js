@@ -4,7 +4,14 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <div>
-      <div className=" text-white parent bg-slate-900 ">
+      <div className="h-screen text-white Parent bg-slate-900 ">
+        <div className="container px-2 ">
+          <div className="relative w-6 h-6 bg-red-600 rounded-lg">
+            <div className=" absolute w-5 h-5 bg-green-600 rounded-lg"></div>
+          </div>
+        </div>
+      </div>
+      <div className=" text-white Parent bg-slate-900 ">
         <div className="container px-2 ">
           <img
             className="block float-left w-1/3"
