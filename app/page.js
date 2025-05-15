@@ -4,6 +4,45 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <div>
+      <div>
+        <span class="box-decoration-slice bg-purple-300 px-2 text-white ...">
+          Hello
+          <br />
+          World
+        </span>
+        <span class="box-decoration-clone bg-pink-500 px-2 text-white ...">
+          Hello
+          <br />
+          World
+        </span>
+      </div>
+      {/*<div class="columns-2">
+        <p>Well, let me tell you something, ...</p>
+        <p class="break-inside-auto">Sure, go ahead, laugh...</p>
+        <p>Maybe we can live without...</p>
+        <p>Look. If you think this is...</p>
+      </div>
+      <div class="columns-2">
+        <p>Well, let me tell you something, ...</p>
+        <p class="break-before-column">Sure, go ahead, laugh...</p>
+        <p>Maybe we can live without...</p>
+        <p>Look. If you think this is...</p>
+      </div>
+      <div class="columns-2">
+        <p>Well, let me tell you something, ...</p>
+        <p class="break-after-column">Sure, go ahead, laugh...</p>
+        <p>Maybe we can live without...</p>
+        <p>Look. If you think this is...</p>
+      </div> */}
+      <div className="h-screen Parent bg-blue-500 text-white">
+        <div className="container ">
+          <img
+            className="w-6 h-6 object-none object-center"
+            src="https://img.freepik.com/premium-photo/medium-shot-woman-living-farmhouse_23-2150621719.jpg"
+          />
+        </div>
+      </div>
+
       <div className="container flex bg-slate-500">
         <div className="p-3 z-40 bg-purple-500 border-white rounded-full">
           05
