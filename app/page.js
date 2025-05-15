@@ -4,10 +4,32 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <div>
+      <div className="container flex bg-slate-500">
+        <div className="p-3 z-40 bg-purple-500 border-white rounded-full">
+          05
+        </div>
+        <div className="p-3 z-30 bg-purple-500 border-white rounded-full">
+          04
+        </div>
+        <div className="p-3 z-20 bg-purple-500 border-white rounded-full">
+          03
+        </div>
+        <div className="p-3 z-10 bg-purple-500 border-white rounded-full">
+          02
+        </div>
+        <div className="p-3 z-0 bg-purple-500 border-white rounded-full">
+          01
+        </div>
+      </div>
+      <div className="grid grid-cols-3 gap-4">
+        <div className="bg-teal-400">01</div>
+        <div className="bg-teal-400 invisible">02</div>
+        <div className="bg-teal-400">03</div>
+      </div>
       <div className="h-screen text-white Parent bg-slate-900 ">
         <div className="container px-2 ">
           <div className="relative w-6 h-6 bg-red-600 rounded-lg">
-            <div className=" absolute w-5 h-5 bg-green-600 rounded-lg"></div>
+            <div className=" absolute inset-2 w-3 h-3 bg-green-600 rounded-lg"></div>
           </div>
         </div>
       </div>
@@ -30,7 +52,19 @@ export default function Home() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, nulla pariatur. Excepteur sint occaecat cupidatat
             non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum."
+            laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum." Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum." Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."."
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
