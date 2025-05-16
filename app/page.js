@@ -19,16 +19,22 @@ export default function Home() {
           Disabled
         </button>
       </div>
-
       <div>
-        <input type="text" />
+        <input type="text" placeholder="E-mail" />
       </div>
       <div>
-        <input disabled type="text" />
+        <input disabled type="text" placeholder="E-mail" />
       </div>
       <div>
-        <label for="checkbox">Checkbox</label>
-        <input type="checkbox" />
+        <input type="date" />
+      </div>
+      <div className="">
+        <input type="checkbox" id="checkbox" />
+        <label htmlFor="checkbox">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam,
+        </label>
       </div>
       <div>
         <select>
