@@ -4,7 +4,10 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <div>
-      <div>
+      <div className="h-screen text-white bg-slate-900 Parentf">
+        <div className="border">Header</div>
+      </div>
+      {/* <div>
         <span class="box-decoration-slice bg-purple-300 px-2 text-white ...">
           Hello
           <br />
@@ -15,7 +18,7 @@ export default function Home() {
           <br />
           World
         </span>
-      </div>
+      </div> */}
       {/*<div class="columns-2">
         <p>Well, let me tell you something, ...</p>
         <p class="break-inside-auto">Sure, go ahead, laugh...</p>
@@ -34,16 +37,16 @@ export default function Home() {
         <p>Maybe we can live without...</p>
         <p>Look. If you think this is...</p>
       </div> */}
-      <div className="h-screen Parent bg-blue-500 text-white">
+      {/* <div className="h-screen Parent bg-blue-500 text-white">
         <div className="container ">
           <img
             className="w-6 h-6 object-none object-center"
             src="https://img.freepik.com/premium-photo/medium-shot-woman-living-farmhouse_23-2150621719.jpg"
           />
         </div>
-      </div>
+      </div> */}
 
-      <div className="container flex bg-slate-500">
+      {/* <div className="container flex bg-slate-500">
         <div className="p-3 z-40 bg-purple-500 border-white rounded-full">
           05
         </div>
@@ -59,8 +62,8 @@ export default function Home() {
         <div className="p-3 z-0 bg-purple-500 border-white rounded-full">
           01
         </div>
-      </div>
-      <div className="grid grid-cols-3 gap-4">
+      </div>*/}
+      {/* <div className="grid grid-cols-3 gap-4"> 
         <div className="bg-teal-400">01</div>
         <div className="bg-teal-400 invisible">02</div>
         <div className="bg-teal-400">03</div>
@@ -71,8 +74,8 @@ export default function Home() {
             <div className=" absolute inset-2 w-3 h-3 bg-green-600 rounded-lg"></div>
           </div>
         </div>
-      </div>
-      <div className=" text-white Parent bg-slate-900 ">
+      </div> */}
+      {/* <div className=" text-white Parent bg-slate-900 ">
         <div className="container px-2 ">
           <img
             className="block float-left w-1/3"
@@ -295,9 +298,9 @@ export default function Home() {
             <h1>Another Sidebar</h1>
           </div>
           {/* <div className="w-1/4 bg-green-500 ">Sidebar</div>
-          <div className="w-full bg-blue-500 ">Main Content</div>*/}
-        </div>
-        <div className="flex flex-col md:flex-row">
+          <div className="w-full bg-blue-500 ">Main Content</div>
+        </div>*/}
+      {/* <div className="flex flex-col md:flex-row">
           <div className="flex w-full flex-wrap">
             <div className="w-full grow">01</div>
             <div className="w-full grow ">02</div>
@@ -306,7 +309,7 @@ export default function Home() {
             <div className="w-full grow">05</div>
           </div>
         </div>
-      </div>
+      </div>  */}
 
       {/* <div className="flex min-h-screen space-y-4">
         <div className="w-1/4   bg-purple-800 ">Sidebar</div>
