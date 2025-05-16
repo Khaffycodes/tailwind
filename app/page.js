@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div>
       <h1>This is a title</h1>
-      <h2>This is a subtitle</h2>
-      <p>This is a paragraph</p>
+      <h2 className="mb-1 text-xl font-semibold">This is a subtitle</h2>
+      <p className="text-base">This is a paragraph</p>
       <a>This is an anchor</a>
       <div>
         <button>This is a button</button>
@@ -24,6 +24,8 @@ export default function Home() {
           <option>Option 2</option>
         </select>
       </div>
+      <h1>This is a title</h1>
+      <h2 className="mb-1 text-xl font-semibold">This is a subtitle</h2>
 
       {/* <div className=" h-screen  text-black Parent">
         <div className="block p-4 text-black bg-white rounded-lg shadow-md">
