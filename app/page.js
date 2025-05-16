@@ -8,15 +8,27 @@ export default function Home() {
       <h2 className="mb-1 text-xl font-semibold">This is a subtitle</h2>
       <p className="text-base">This is a paragraph</p>
       <a>This is an anchor</a>
-      <div>
-        <button>This is a button</button>
+      <div className="my-4">
+        <button className="btn btn-primary">Click me</button>
       </div>
+      <div className="my-2">
+        <button className="btn btn-secondary">Subscribe</button>
+      </div>
+      <div className="my-4">
+        <button disabled className="btn btn-primary">
+          Disabled
+        </button>
+      </div>
+
       <div>
         <input type="text" />
       </div>
       <div>
-        <input type="checkbox" id="checkbox" />
+        <input disabled type="text" />
+      </div>
+      <div>
         <label for="checkbox">Checkbox</label>
+        <input type="checkbox" />
       </div>
       <div>
         <select>
