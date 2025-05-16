@@ -18,6 +18,12 @@ export default function Home() {
         <input type="checkbox" id="checkbox" />
         <label for="checkbox">Checkbox</label>
       </div>
+      <div>
+        <select>
+          <option>Option 1</option>
+          <option>Option 2</option>
+        </select>
+      </div>
 
       {/* <div className=" h-screen  text-black Parent">
         <div className="block p-4 text-black bg-white rounded-lg shadow-md">
