@@ -4,9 +4,57 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <div>
-      <div className="h-screen text-white bg-slate-900 Parentf">
-        <div className="border">Header</div>
+      <h1>This is a title</h1>
+      <h2>This is a subtitle</h2>
+      <p>This is a paragraph</p>
+      <a>This is an anchor</a>
+      <div>
+        <button>This is a button</button>
       </div>
+      <div>
+        <input type="text" />
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox" />
+        <label for="checkbox">Checkbox</label>
+      </div>
+      <div>
+        <select>
+          <option>Option 1</option>
+          <option>Option 2</option>
+        </select>
+      </div>
+      {/* <div className=" h-screen  text-black Parent">
+        <div className="block p-4 text-black bg-white rounded-lg shadow-md">
+          <img
+            className="skew-y-2 w-6 h-6 blur-sm hover:blur-none brightness-50 "
+            src="https://img.freepik.com/premium-photo/medium-shot-woman-living-farmhouse_23-2150621719.jpg"
+          />
+          <h1 className="text-2xl opacity-45">Hello</h1>
+          <p className="text-xl">My name is Khaffy</p>
+          <button className=" transition ease-in hover:translate-x-2 delay-100 mt-3 px-2 py-1 bg-teal-400 shadow-md shadow-teal-400/50 text-white rounded-lg">
+            Click me
+          </button>
+          <button className="block px-2 py-1 rounded-lg mt-3 bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 ...">
+            Save Changes
+          </button>
+        </div>
+        <div className="mt-1 w-full border-2">Header</div>
+        <br></br>
+        <br></br>
+        <div className="divide-red-500 divide-y-2">
+          <div>01</div>
+          <div>02</div>
+          <div>03</div>
+        </div>
+        <br></br>
+        <br></br>
+        <input
+          type="text"
+          className="rounded-lg border-2 border-rose-700 focus:border-green-200 outline-none"
+        />
+      </div> */}
+
       {/* <div>
         <span class="box-decoration-slice bg-purple-300 px-2 text-white ...">
           Hello
