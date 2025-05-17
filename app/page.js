@@ -8,9 +8,9 @@
 
 export default function Home() {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head />
-      <body>{children}</body>
+      <body className="dark:bg-slate-950 dark:text-white">Hello</body>
     </html>
   );
 }
