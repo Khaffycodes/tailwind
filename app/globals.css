@@ -18,8 +18,12 @@
   a {
     @apply underline text-blue-500 hover:text-red-600 transition decoration-wavy underline-offset-4;
   }
-  input {
-    @apply mb-1 p-1 rounded-sm border border-slate-400 outline-none;
+  input,
+  select {
+    @apply text-slate-500 mb-1 p-1 rounded-sm border border-slate-400 outline-none;
+  }
+  select {
+    @apply pr-2;
   }
   input[type='text'] {
     @apply placeholder:italic disabled:bg-slate-300;
@@ -40,5 +44,14 @@
   }
   .btn-secondary {
     @apply bg-slate-500 text-white;
+  }
+  .select {
+    @apply w-6 rounded-sm border border-slate-400 transition cursor-pointer inline-block;
+  }
+  .select .child {
+    @apply px-2 py-1 text-slate-500;
+  }
+  .select ul li {
+    @apply hover:bg-slate-400;
   }
 }

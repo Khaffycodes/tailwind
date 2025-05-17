@@ -1,7 +1,19 @@
+'use client';
+
 import Image from 'next/image';
 import styles from './page.module.css';
 
+import { useState } from 'react';
+import { ArrowDown } from './arrow';
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectValue, setSelectValue] = useState('Select ');
+
+  const updateValue = (value) => {
+    setSelectValue(value);
+    setIsOpen(false);
+  };
+
   return (
     <div>
       <h1>This is a title</h1>
@@ -42,8 +54,48 @@ export default function Home() {
           <option>Option 2</option>
         </select>
       </div>
-      <h1>This is a title</h1>
-      <h2 className="mb-1 text-xl font-semibold">This is a subtitle</h2>
+
+      <div className="select">
+        <div
+          className="child flex justify-between items-center"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <span className="">{selectValue}</span>
+          <div className={isOpen ? ' rotate-180' : 'rotate-0'}>
+            <ArrowDown />
+          </div>
+        </div>
+        {isOpen && (
+          <div>
+            <ul className="flex flex-col divide-y border-t">
+              <li className="child" onClick={() => updateValue('Option A')}>
+                Option A
+              </li>
+              <li className="child" onClick={() => updateValue('Option B')}>
+                Option B
+              </li>
+              <li className="child" onClick={() => updateValue('Option C')}>
+                Option C
+              </li>
+            </ul>
+          </div>
+        )}
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum."
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum."
+      </p>
+
+      {/* <h1>This is a title</h1>
+      <h2 className="mb-1 text-xl font-semibold">This is a subtitle</h2> */}
 
       {/* <div className=" h-screen  text-black Parent">
         <div className="block p-4 text-black bg-white rounded-lg shadow-md">
