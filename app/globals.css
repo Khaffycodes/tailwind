@@ -55,3 +55,9 @@
     @apply hover:bg-slate-400;
   }
 }
+
+@layer components {
+  .card {
+    background-color: theme('colors.greeny');
+  }
+}

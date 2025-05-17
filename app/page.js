@@ -16,6 +16,7 @@ export default function Home() {
 
   return (
     <div>
+      <div className="card p-4 text-white ">Card</div>
       <h1>This is a title</h1>
       <h2 className="mb-1 text-xl font-semibold">This is a subtitle</h2>
       <p className="text-base">This is a paragraph</p>
